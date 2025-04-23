@@ -1,0 +1,30 @@
+/* Estilos adicionales para la sección "Sobre Nosotros" */
+.sobre-nosotros {
+    padding: 50px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.sobre-nosotros h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #D4AF37;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.sobre-nosotros .mision, .sobre-nosotros .vision {
+    margin-bottom: 40px;
+}
+
+.sobre-nosotros h3 {
+    font-size: 24px;
+    color: #D4AF37;
+    margin-bottom: 10px;
+}

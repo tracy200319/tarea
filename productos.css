@@ -1,0 +1,36 @@
+/* Estilos adicionales para la sección "Productos" */
+.productos {
+    padding: 50px 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.productos h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #D4AF37;
+    margin-bottom: 30px;
+}
+
+.producto-card {
+    display: inline-block;
+    background-color: #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto-card p {
+    color: #D4AF37;
+    font-weight: 700;
+    margin-top: 10px;
+}
