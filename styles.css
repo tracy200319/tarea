@@ -1,0 +1,129 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente global */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+}
+
+header .logo h1 {
+    font-family: 'Playfair Display', serif;
+    color: #D4AF37; /* Dorado */
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #333;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #D4AF37; /* Dorado */
+}
+
+.hero p {
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.hero .btn-primary {
+    background-color: #D4AF37;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #b38b2d;
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.productos h2 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.producto-card {
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+}
+
+.producto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto-card p {
+    color: #D4AF37; /* Dorado */
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer .social a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #D4AF37; /* Dorado */
+}
