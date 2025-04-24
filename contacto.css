@@ -1,51 +1,163 @@
-/* Estilos adicionales para la sección "Contacto" */
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fuente global */
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background-color: #000;
+    border-bottom: 2px solid #D4AF37;
+  }
+  
+  header .logo h1 {
+    font-family: 'Playfair Display', serif;
+    color: #D4AF37;
+    font-size: 42px;
+    letter-spacing: 3px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover,
+  header nav ul li a.activo {
+    color: #D4AF37;
+  }
+  
+/* Contacto Section */
 .contacto {
-    padding: 50px 20px;
-    background-color: #333;
+    padding: 80px 30px;
+    background-color: #1a1a1a; /* Fondo negro */
     color: #fff;
     text-align: center;
-}
-
-.contacto h2 {
+  }
+  
+  .contacto h2 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
-    color: #D4AF37;
+    color: #D4AF37; /* Dorado */
     margin-bottom: 20px;
-}
-
-.contacto form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.contacto label {
+    letter-spacing: 2px;
+  }
+  
+  .contacto p {
     font-size: 18px;
-    display: block;
-    margin-bottom: 10px;
-    color: #D4AF37;
-}
-
-.contacto input, .contacto textarea {
-    width: 100%;
-    padding: 10px;
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+  
+  .contacto-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #222; /* Fondo gris oscuro */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacto .form-group {
     margin-bottom: 20px;
-    background-color: #222;
+  }
+  
+  .contacto label {
+    font-size: 18px;
+    color: #f1c40f; /* Dorado */
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #555; /* Borde gris oscuro */
+    border-radius: 8px;
+    background-color: #333; /* Fondo gris oscuro */
     color: #fff;
-    border: 1px solid #444;
-    border-radius: 5px;
-}
-
-.contacto button {
-    background-color: #D4AF37;
-    color: #000;
-    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contacto input:focus,
+  .contacto textarea:focus {
+    border-color: #D4AF37; /* Dorado */
+    outline: none;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.6);
+  }
+  
+  .contacto button {
+    background-color: #D4AF37; /* Dorado */
+    color: #111; /* Texto negro */
+    padding: 15px 25px;
     border: none;
-    border-radius: 5px;
-    font-weight: 700;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
-}
-
-.contacto button:hover {
-    background-color: #b38b2d;
-}
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contacto button:hover {
+    background-color: #b38b2d; /* Dorado oscuro */
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .social-links {
+    margin-top: 20px;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #D4AF37; /* Dorado */
+  }

@@ -1,30 +1,170 @@
-/* Estilos adicionales para la sección "Sobre Nosotros" */
-.sobre-nosotros {
-    padding: 50px 20px;
-    background-color: #333;
+/* Estilos para la página Sobre Nosotros - SORELLE */
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fuente global */
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1a1a1a;
     color: #fff;
-    text-align: center;
-}
-
-.sobre-nosotros h2 {
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background-color: #000;
+    border-bottom: 2px solid #D4AF37;
+  }
+  
+  header .logo h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 48px;
+    color: #D4AF37;
+    font-size: 42px;
+    letter-spacing: 3px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover,
+  header nav ul li a.activo {
+    color: #D4AF37;
+  }
+.sobre-nosotros {
+    padding: 100px 30px;
+    background: linear-gradient(145deg, #111, #1c1c1c);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  
+  .sobre-nosotros h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
     color: #D4AF37;
     margin-bottom: 20px;
-}
-
-.sobre-nosotros p {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  .sobre-nosotros p.descripcion {
     font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-.sobre-nosotros .mision, .sobre-nosotros .vision {
-    margin-bottom: 40px;
-}
-
-.sobre-nosotros h3 {
-    font-size: 24px;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.8;
+  }
+  
+  .equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+  }
+  
+  .miembro {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 280px;
+    transition: transform 0.3s ease;
+  }
+  
+  .miembro:hover {
+    transform: translateY(-5px);
+  }
+  
+  .miembro img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #D4AF37;
+  }
+  
+  .miembro h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
     color: #D4AF37;
     margin-bottom: 10px;
-}
+  }
+  
+  .miembro p {
+    font-size: 14px;
+    color: #aaa;
+    line-height: 1.5;
+  }
+  
+  /* Botón CTA */
+  .btn-conocenos {
+    margin-top: 50px;
+    background-color: #D4AF37;
+    color: #111;
+    padding: 14px 36px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-conocenos:hover {
+    background-color: #b38b2d;
+    transform: scale(1.05);
+  }
+
+    /* Footer */
+  footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .social-links {
+    margin-top: 20px;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #D4AF37; /* Dorado */
+  }
