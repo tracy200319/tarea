@@ -84,6 +84,31 @@
     margin-top: 60px;
   }
   
+  .foto-grupal {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .foto-grupal img {
+    width: 300px; /* Tamaño más pequeño */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .foto-grupal img:hover {
+    transform: scale(1.05);
+  }
+  
+  .descripcion-foto {
+    margin-top: 12px;
+    font-size: 17px;
+    color: #f1c40f;
+    font-family: 'Lato', sans-serif;
+  }
+  
+
   .miembro {
     background-color: #1f1f1f;
     padding: 30px;

@@ -51,7 +51,7 @@
   header nav ul li a.activo {
     color: #D4AF37;
   }
-  
+
   /* Productos */
   .productos {
     padding: 80px 20px;
@@ -61,9 +61,11 @@
   
   .productos h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 48px;
+    font-size: 52px;
     color: #D4AF37;
     margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
   }
   
   .productos .descripcion {

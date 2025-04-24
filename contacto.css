@@ -61,10 +61,11 @@
   
   .contacto h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    color: #D4AF37; /* Dorado */
+    font-size: 52px;
+    color: #D4AF37;
     margin-bottom: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
   }
   
   .contacto p {
@@ -83,15 +84,44 @@
   }
   
   .contacto .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Espacio más amplio entre campos para mayor claridad */
   }
   
   .contacto label {
-    font-size: 18px;
-    color: #f1c40f; /* Dorado */
+    font-size: 20px; /* Aumentamos el tamaño de la fuente para mejor legibilidad */
+    color: #D4AF37; /* Dorado más brillante para resaltar el label */
     font-weight: 600;
+    letter-spacing: 0.5px; /* Espaciado de letras para un toque elegante */
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 12px; /* Un poco más de espacio debajo de los labels */
+    text-transform: uppercase; /* Hace los textos más formales */
+    font-family: 'Playfair Display', serif; /* Fuente serif para elegancia */
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    width: 100%;
+    padding: 18px; /* Más padding para un mayor área de interacción */
+    font-size: 16px;
+    border: 1px solid #333; /* Borde gris oscuro para menos contraste */
+    border-radius: 10px; /* Bordes más redondeados */
+    background-color: #222; /* Fondo oscuro para los campos */
+    color: #fff; /* Texto blanco para contraste */
+    margin-bottom: 25px; /* Más espacio entre campos */
+    transition: all 0.3s ease; /* Transición suave para focus y hover */
+  }
+  
+  .contacto input:focus,
+  .contacto textarea:focus {
+    border-color: #D4AF37; /* Resaltar con dorado al hacer focus */
+    outline: none; /* Eliminamos el borde por defecto */
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.6); /* Añadimos un sutil resplandor dorado */
+  }
+  
+  .contacto input::placeholder,
+  .contacto textarea::placeholder {
+    color: #888; /* Texto de placeholder gris claro para mantener la estética */
+    font-style: italic; /* Estilo en cursiva para los placeholders */
   }
   
   .contacto input,
