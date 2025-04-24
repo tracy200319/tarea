@@ -86,7 +86,7 @@
   }
   
   .contacto label {
-    font-size: 20px; /* Aumentamos el tamaño de la fuente para mejor legibilidad */
+    font-size: 15px; /* Aumentamos el tamaño de la fuente para mejor legibilidad */
     color: #D4AF37; /* Dorado más brillante para resaltar el label */
     font-weight: 600;
     letter-spacing: 0.5px; /* Espaciado de letras para un toque elegante */
@@ -144,7 +144,7 @@
   
   .contacto button {
     background-color: #D4AF37; /* Dorado */
-    color: #111; /* Texto negro */
+    color: #ffffff; /* Texto negro */
     padding: 15px 25px;
     border: none;
     border-radius: 30px;

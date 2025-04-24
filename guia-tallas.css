@@ -69,6 +69,15 @@
     color: #ccc;
     margin-bottom: 40px;
   }
+
+  h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
   
   .tabla-container {
     overflow-x: auto;
@@ -94,20 +103,20 @@
   }
   
   th {
-    color: #f1c40f;
+    font-size: 15px;
+    color: #D4AF37;
   }
   
   .recomendacion {
     margin-top: 30px;
-    color: #f1c40f;
-    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 40px;
   }
   
   footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    padding: 30px;
-    background-color: #111;
-    font-size: 14px;
-    color: #777;
   }
   

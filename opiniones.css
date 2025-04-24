@@ -95,7 +95,7 @@
   
   .testimonio h3 {
     font-size: 18px;
-    color: #f1c40f;
+    color: #D4AF37;
   }
   
   .testimonio p {
@@ -105,64 +105,96 @@
   
   .testimonio .calificacion {
     font-size: 18px;
-    color: #f1c40f;
+    color: #D4AF37;
   }
   
   .agregar-opinion {
-    margin-top: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
   }
   
   .agregar-opinion h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    text-align: center;
   }
   
+  /* Estilo de grupo de formularios reutilizado */
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
   }
   
   .form-group label {
-    font-size: 18px;
-    color: #f1c40f;
-    font-weight: 600;
+    font-size: 14px;
+    color: #D4AF37;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
   }
   
   .form-group input,
   .form-group textarea,
   .form-group select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #444;
-    background-color: #333;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background-color: #2a2a2a;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .form-group textarea {
-    resize: vertical;
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #D4AF37;
+    box-shadow: 0 0 6px rgba(245, 197, 24, 0.4);
   }
   
+  .form-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23f5c518' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+  
+  /* Botón */
   .btn-enviar {
-    background-color: #f1c40f;
-    color: #000;
-    padding: 10px 20px;
-    font-size: 18px;
+    background: linear-gradient(135deg, #D4AF37, #f1c40f);
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 16px;
     font-weight: 600;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(245, 197, 24, 0.3);
   }
   
   .btn-enviar:hover {
-    background-color: #e1b40f;
+    background: linear-gradient(135deg, #e1b40f, #d4a40a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(245, 197, 24, 0.5);
   }
   
+  
   footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    padding: 30px;
-    background-color: #111;
-    font-size: 14px;
-    color: #777;
   }
   

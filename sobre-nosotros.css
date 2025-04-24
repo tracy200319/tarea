@@ -92,18 +92,19 @@
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    
+    border: 3px solid #D4AF37;
   }
   
   .foto-grupal img:hover {
     transform: scale(1.05);
   }
   
-  .descripcion-foto {
+  /* .descripcion-foto {
     margin-top: 12px;
     font-size: 17px;
-    color: #f1c40f;
     font-family: 'Lato', sans-serif;
-  }
+  } */
   
 
   .miembro {
@@ -144,7 +145,7 @@
   .btn-conocenos {
     margin-top: 50px;
     background-color: #D4AF37;
-    color: #111;
+    color: #ffffff;
     padding: 14px 36px;
     font-size: 16px;
     border: none;

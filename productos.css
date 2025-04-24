@@ -78,7 +78,7 @@
   .categoria {
     margin-bottom: 80px;
   }
-  
+
   .categoria h3 {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
@@ -89,7 +89,7 @@
   
   .categoria .cantidad {
     font-size: 18px;
-    color: #f1c40f; /* Dorado */
+    color: #D4AF37; /* Dorado */
     margin-bottom: 30px;
   }
   
@@ -137,11 +137,33 @@
     transform: translateY(-10px);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   }
+
+  .btn-comprar {
+    background-color: #d4af37; /* Dorado */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4); /* Sombra dorada */
+  }
+  
+  .btn-comprar:hover {
+    background-color: #fff; /* Fondo blanco al pasar */
+    color: #d4af37; /* Texto dorado */
+    border: 2px solid #d4af37;
+  }
+  
+  
   
   /* Botón de contacto */
   .btn-contacto {
     background-color: #D4AF37;
-    color: #000;
+    color: #ffffff;
     padding: 14px 28px;
     border: none;
     border-radius: 30px;
