@@ -1,0 +1,168 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fuente global */
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background-color: #000;
+    border-bottom: 2px solid #D4AF37;
+  }
+  
+  header .logo h1 {
+    font-family: 'Playfair Display', serif;
+    color: #D4AF37;
+    font-size: 42px;
+    letter-spacing: 3px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover,
+  header nav ul li a.activo {
+    color: #D4AF37;
+  }
+  
+  .opiniones {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .opiniones h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  .opiniones .introduccion {
+    color: #ccc;
+    margin-bottom: 40px;
+  }
+  
+  .testimonios {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonio {
+    background-color: #1a1a1a;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonio img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .testimonio h3 {
+    font-size: 18px;
+    color: #f1c40f;
+  }
+  
+  .testimonio p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .testimonio .calificacion {
+    font-size: 18px;
+    color: #f1c40f;
+  }
+  
+  .agregar-opinion {
+    margin-top: 40px;
+  }
+  
+  .agregar-opinion h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    color: #f1c40f;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .btn-enviar {
+    background-color: #f1c40f;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #e1b40f;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #111;
+    font-size: 14px;
+    color: #777;
+  }
+  

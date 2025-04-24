@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Opiniones - SORELLE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="opiniones.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>SORELLE</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="lookbook.html" class="activo">Lookbook</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="opiniones.html" class="activo">Opiniones</a></li>
+        <li><a href="guia-tallas.html" class="activo">Guía de Tallas</a></li>
+        <li><a href="carrito.html" class="active">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Opiniones -->
+  <section class="opiniones">
+    <h2>Lo que Dicen Nuestros Clientes</h2>
+    <p class="introduccion">¡Tus opiniones nos importan! Aquí te mostramos lo que nuestras clientas/os tienen que decir sobre sus experiencias con SORELLE.</p>
+
+    <div class="testimonios">
+      <div class="testimonio">
+        <img src="cliente1.jpg" alt="Cliente 1">
+        <h3>Ana López</h3>
+        <p>"Me encantan las prendas de SORELLE. Son modernas, elegantes y muy cómodas. Siempre me siento fabulosa al usarlas."</p>
+        <p class="calificacion">⭐⭐⭐⭐⭐</p>
+      </div>
+      
+      <div class="testimonio">
+        <img src="cliente2.jpg" alt="Cliente 2">
+        <h3>Marco Pérez</h3>
+        <p>"Una experiencia increíble. Los productos son de excelente calidad, y la atención al cliente es de primer nivel. ¡Definitivamente volveré a comprar!"</p>
+        <p class="calificacion">⭐⭐⭐⭐⭐</p>
+      </div>
+
+      <div class="testimonio">
+        <img src="cliente3.jpg" alt="Cliente 3">
+        <h3>Carla Rodríguez</h3>
+        <p>"Cada vez que compro en SORELLE, encuentro algo único. Me encantan las colecciones, siempre a la vanguardia de la moda."</p>
+        <p class="calificacion">⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+
+    <div class="agregar-opinion">
+      <h3>Deja Tu Opinión</h3>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="comentario">Comentario</label>
+          <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu opinión..." required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="calificacion">Calificación</label>
+          <select id="calificacion" name="calificacion">
+            <option value="5">⭐⭐⭐⭐⭐</option>
+            <option value="4">⭐⭐⭐⭐</option>
+            <option value="3">⭐⭐⭐</option>
+            <option value="2">⭐⭐</option>
+            <option value="1">⭐</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar Opinión</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SORELLE | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
+

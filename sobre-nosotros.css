@@ -52,11 +52,8 @@
     color: #D4AF37;
   }
 .sobre-nosotros {
-    padding: 100px 30px;
-    background: linear-gradient(145deg, #111, #1c1c1c);
-    color: #fff;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
+  padding: 60px 20px;
+  text-align: center;
   }
   
   .sobre-nosotros h2 {

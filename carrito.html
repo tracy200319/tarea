@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Inicio - SORELLE</title>
+  <title>Carrito de Compras - SORELLE</title>
+  <link rel="stylesheet" href="carrito.css" />
+  <script defer src="carrito.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
@@ -30,26 +31,21 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Bienvenidos a SORELLE</h2>
-      <p>Moda que define elegancia y modernidad. Explora nuestra colección exclusiva.</p>
-      <br>
-      <a href="productos.html" class="btn-hero">Ver Productos</a>
+  <!-- Carrito -->
+  <section class="carrito">
+    <h2>Tu Carrito</h2>
+    <div class="items" id="carrito-items">
+      <!-- JS añade productos aquí -->
+    </div>
+    <div class="total">
+      <p>Total: <span id="total">S/ 0.00</span></p>
+      <button class="btn-pagar">Proceder al Pago</button>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <div class="footer-container">
-      <p>&copy; 2025 SORELLE | Todos los derechos reservados</p>
-      <div class="social-links">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Twitter</a>
-      </div>
-    </div>
+    <p>&copy; 2025 SORELLE | Todos los derechos reservados</p>
   </footer>
 
 </body>
