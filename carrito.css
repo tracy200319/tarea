@@ -136,7 +136,7 @@
     transition: all 0.3s ease;
   }
   
-  .btn-quitar:hover {
+  .btn-quitar:hover { 
     background: #f5c518;
     color: #ffffff;
   }
