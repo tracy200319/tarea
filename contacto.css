@@ -85,7 +85,7 @@
     margin-bottom: 30px; /* Espacio más amplio entre campos para mayor claridad */
   }
    
-  .contacto label {
+  .contacto label { 
     font-size: 15px; /* Aumentamos el tamaño de la fuente para mejor legibilidad */
     color: #D4AF37; /* Dorado más brillante para resaltar el label */
     font-weight: 600;
